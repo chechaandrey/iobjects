@@ -24,6 +24,8 @@ function iDate(options, format) {
 		this.date = idate.getDate();
 		this.month = idate.getMonth();
 		this.year = idate.getFullYear();
+		
+		return this;
 	}
 	
 	this.set = function(arg) {
